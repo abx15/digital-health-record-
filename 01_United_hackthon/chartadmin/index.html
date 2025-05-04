@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Healthcare Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="chart_utils.js"></script>
+</head>
+<body>
+  <h2>Doctor Performance Dashboard</h2>
+
+  <label for="doctorSelect">Filter by Doctor:</label>
+  <select id="doctorSelect">
+    <option value="all">All Doctors</option>
+  </select>
+  <button onclick="loadCharts()">Apply Filter</button>
+
+  <h3>Gender Distribution (Pie)</h3>
+  <canvas id="genderChart"></canvas>
+
+  <h3>Outcome Distribution (Donut)</h3>
+  <canvas id="outcomeChart"></canvas>
+
+  <h3>Average Earnings per Doctor Clinic</h3>
+  <canvas id="costChart"></canvas>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      fetch('get_doctors.php')
+        .then(res => res.json())
+        .then(doctors => {
+          const select = document.getElementById('doctorSelect');
+          doctors.forEach(doc => {
+            const opt = document.createElement("option");
+            opt.value = doc;
+            opt.text = doc;
+            select.appendChild(opt);
+          });
+        });
+      loadCharts();
+    });
+  </script>
+</body>
+</html>
