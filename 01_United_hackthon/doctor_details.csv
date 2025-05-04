@@ -1,0 +1,16 @@
+Full_Name,Gender,Specialty,Experience,Availability_Date,Availability_Time
+akash pandey,male,neurologist,10,"mon,tue,wed",10 am to 5 pm
+trishla pandey,female,cardiologist,10,"mon,tue,wed,thu",9 am to 6 pm
+rahul kumar,male,endocrinologist,8,"mon,fri,sun",9 am to 5 pm
+pawan kumar,male,oncologist,10,"mon,tue,wed",10 am to 6 pm
+pragya pandey,female,pediatrician,9,"tue,fri,sun",10 am to 5 pm
+ankit keshrwani,male,neurologist,10,"thu,fri,sat",10 am to 5 pm
+atul bind,male,cardiologist,9,"thu,fri,sat",10 am to 6 pm
+shivani sharma,female,endocrinologist,7,"tue,wed,thu",9 am to 5 pm
+anjali singh,female,oncologist,8,"thu,fri,sat",9 am to 6 pm
+vishnu vinod,male,pediatrician,7,"mon,wed,thu",10 am to 6 pm
+noor bano,female,neurologist,8,"mon,tue,wed,thu",10 am to 6 pm
+anuj prasad,male,cardiologist,9,"thu,fri,sat",9 am to 6 pm
+priya dubey,female,endocrinologist,10,"mon,tue,wed,thu",10 am to 6 pm
+karun nair,male,oncologist,9,"mon,tue,wed,thu,fri,sat",9 am to 5 pm
+smriti singh,female,pediatrician,10,"mon,tue,wed,thu,fri,sat,sun",10 am to 6 pm
